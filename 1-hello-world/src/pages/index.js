@@ -1,8 +1,12 @@
 import React from "react"
+import Header from '../components/Header'
+import { Link } from 'gatsby'
 
-export default () => (
-  <div>
-    <h1>first gatsBy APP</h1>
+const Home = () => (
+  <div className="content">
+    <Header content='Wassup i use some gatsby here!! Welcom Home' />
+    <Link to="/contact/">Contact</Link>
   </div>
 )
 
+export default Home
