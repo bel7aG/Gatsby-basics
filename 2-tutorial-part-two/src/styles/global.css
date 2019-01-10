@@ -13,8 +13,7 @@ html {
 body {
   overflow-x: hidden;
   position: relative;
-  background-color: #333;
-  color: #fff;
+  color: #222;
 }
 
 * {
